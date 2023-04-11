@@ -8,3 +8,5 @@ function printCoordinates(point) {
 }
 
 printCoordinates({ x: 10, y: 3 });
+
+// Console.logs an error. y is not defined.

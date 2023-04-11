@@ -7,5 +7,5 @@ function printCoordinates(point) {
   console.log(`The y coordinate is ${y}`);
 }
 
-console.log(printCoordinates());
-console.log(y);
+console.log(printCoordinates()); // Console.logs The x coordinate is 10. The y coordinate is 3.
+console.log(y); // Error. defined inside the function.
