@@ -19,5 +19,5 @@ function changeBackground() {
     "rgb(" + red + ", " + green + ", " + blue + ")";
 }
 
-setTimeout(changeBackground, 1000);
-//setInterval(changeBackground, 2000);
+//setTimeout(changeBackground, 1000); // will change only once after loading
+setInterval(changeBackground, 2000); // will change on its own every 2 seconds
